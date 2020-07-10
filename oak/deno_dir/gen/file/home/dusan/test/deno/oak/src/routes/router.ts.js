@@ -1,0 +1,9 @@
+import { Router } from "../../deps.ts";
+import Home from "./home.ts";
+import { apiGet, apiPost } from "./api.ts";
+const router = new Router();
+router.get("/", Home)
+    .get("/api", apiGet)
+    .post("/api/:id", apiPost);
+export default router;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicm91dGVyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsicm91dGVyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sRUFBQyxNQUFNLEVBQUMsTUFBTSxlQUFlLENBQUE7QUFFcEMsT0FBTyxJQUFJLE1BQU0sV0FBVyxDQUFBO0FBQzVCLE9BQU8sRUFBQyxNQUFNLEVBQUUsT0FBTyxFQUFDLE1BQU0sVUFBVSxDQUFBO0FBRXhDLE1BQU0sTUFBTSxHQUFHLElBQUksTUFBTSxFQUFFLENBQUE7QUFFM0IsTUFBTSxDQUFDLEdBQUcsQ0FBQyxHQUFHLEVBQUMsSUFBSSxDQUFDO0tBQ2pCLEdBQUcsQ0FBQyxNQUFNLEVBQUMsTUFBTSxDQUFDO0tBQ2xCLElBQUksQ0FBQyxVQUFVLEVBQUMsT0FBTyxDQUFDLENBQUE7QUFHM0IsZUFBZSxNQUFNLENBQUEifQ==

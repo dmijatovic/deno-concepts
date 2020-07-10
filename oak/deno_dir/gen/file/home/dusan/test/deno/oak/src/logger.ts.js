@@ -1,0 +1,5 @@
+export default ({ request }, next) => {
+    console.log(`${request.url}...${request.method}`);
+    next();
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG9nZ2VyLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibG9nZ2VyLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNBLGVBQWUsQ0FBQyxFQUFDLE9BQU8sRUFBZSxFQUFDLElBQVEsRUFBQyxFQUFFO0lBQ2pELE9BQU8sQ0FBQyxHQUFHLENBQUMsR0FBRyxPQUFPLENBQUMsR0FBRyxNQUFNLE9BQU8sQ0FBQyxNQUFNLEVBQUUsQ0FBQyxDQUFBO0lBQ2pELElBQUksRUFBRSxDQUFBO0FBQ1IsQ0FBQyxDQUFBIn0=

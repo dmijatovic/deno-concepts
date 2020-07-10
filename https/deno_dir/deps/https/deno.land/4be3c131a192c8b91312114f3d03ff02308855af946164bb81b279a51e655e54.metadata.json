@@ -1,0 +1,31 @@
+{
+  "headers": {
+    "etag": "W/\"c74519559a8fcb33f5675e3aed3899215f497b028b303ab53164c3aa202c7fa5\"",
+    "x-content-type-options": "nosniff",
+    "cf-cache-status": "DYNAMIC",
+    "vary": "Authorization,Accept-Encoding",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-timer": "S1594402333.647242,VS0,VE505",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "x-cache": "MISS, MISS",
+    "x-frame-options": "deny",
+    "access-control-allow-origin": "*",
+    "x-served-by": "cache-ams21079-AMS",
+    "expires": "Fri, 10 Jul 2020 17:37:13 GMT",
+    "cache-control": "max-age=300",
+    "x-xss-protection": "1; mode=block",
+    "via": "1.1 varnish (Varnish/6.0), 1.1 varnish",
+    "server": "cloudflare",
+    "content-type": "application/typescript; charset=utf-8",
+    "cf-ray": "5b0c05d2dfc1c83b-AMS",
+    "strict-transport-security": "max-age=31536000",
+    "x-fastly-request-id": "af764f8a832febb32067a39afcc5f6c09d3d5191",
+    "x-github-request-id": "DF58:5871:371FE:45D54:5F08A61C",
+    "date": "Fri, 10 Jul 2020 17:32:13 GMT",
+    "cf-request-id": "03db61f7c30000c83b518ab200000001",
+    "source-age": "0",
+    "set-cookie": "__cfduid=de06d7879283399d2233d885cf8fda6f11594402332; expires=Sun, 09-Aug-20 17:32:12 GMT; path=/; domain=.deno.land; HttpOnly; SameSite=Lax; Secure",
+    "x-cache-hits": "0, 0"
+  },
+  "url": "https://deno.land/x/bcrypt@v0.2.1/bcrypt/bcrypt.ts"
+}
